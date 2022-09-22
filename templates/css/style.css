@@ -1,0 +1,23 @@
+.offline {
+  text-align: center;
+}
+.online {
+  color: #d9534f;
+  font-size: 1em;
+}
+.juego {
+  font-size: 1em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.titulo {
+  margin-top: 5px;
+  font-size: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  max-height: 41px;
+  text-align: center;
+}

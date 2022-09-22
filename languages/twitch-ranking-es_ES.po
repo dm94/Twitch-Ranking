@@ -1,0 +1,822 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: twitch-ranking\n"
+"POT-Creation-Date: 2020-10-06 09:25+0200\n"
+"PO-Revision-Date: 2020-10-06 09:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/seccionConfiguracion.php:37 admin/seccionSolicitudes.php:37
+#: templates/solicitud-twitch.php:26
+#, php-format
+msgid "Se ha añadido el streamer %s al ranking"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:37 admin/seccionConfiguracion.php:51
+#: admin/seccionConfiguracion.php:58 admin/seccionConfiguracion.php:72
+#: admin/seccionConfiguracion.php:75 admin/seccionSolicitudes.php:37
+#: shortcodes.php:850 templates/solicitud-twitch.php:26
+msgid "Ranking"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:51
+#, php-format
+msgid "Se ha borrado el streamer %s del ranking"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:58
+msgid "Se han borrado los votos del ranking. Nueva temporada!!"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:72
+#, php-format
+msgid "El nuevo ganador del ranking es %s"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:75
+#, php-format
+msgid "El nuevo streamer del mes es %s"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:135
+#, php-format
+msgid ""
+"El juego %s se ha añadido al apartado de streamer por juegos por lo que ya "
+"podeís poner vuestro perfil si jugaís."
+msgstr ""
+
+#: admin/seccionConfiguracion.php:135
+msgid "ApartadoPrivado"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:143
+msgid "Añadir un usuario al ranking"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:145 admin/seccionConfiguracion.php:157
+#: admin/seccionConfiguracion.php:199 admin/seccionConfiguracion.php:219
+msgid "Usuario:"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:149
+msgid "Añadir usuario twitch"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:155
+msgid "Borrar un usuario del ranking"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:168
+msgid "Borrar usuario"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:174 admin/seccionConfiguracion.php:179
+msgid "Vaciar votos"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:178
+msgid "Si vacias los votos no habrá vuelta atras"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:185
+msgid "Sacar un Ganador de viewers"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:189
+msgid "Sacar Ganador"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:197
+msgid "Elegir ganador del ranking"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:211
+msgid "Asignar ganador"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:217
+msgid "Elegir streamer del mes"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:231
+msgid "Asignar Streamer"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:237
+msgid "Enviar correo a todos de prueba"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:242
+msgid "Enviar correo"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:250
+msgid ""
+"Configurar el minimo para poder mandar solicitud como streamers. Si se pone "
+"a 0 se usará la media de todos los streamers"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:257
+msgid "Mínimo de seguidores"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:262 admin/seccionConfiguracion.php:273
+#: admin/seccionConfiguracion.php:290 admin/seccionConfiguracion.php:303
+#: admin/seccionConfiguracion.php:323 admin/seccionConfiguracion.php:334
+#: admin/seccionConfiguracion.php:345 admin/seccionConfiguracion.php:365
+#: admin/seccionConfiguracion.php:376 admin/seccionConfiguracion.php:396
+#: admin/seccionConfiguracion.php:407 admin/seccionConfiguracion.php:418
+#: admin/seccionConfiguracion.php:429 admin/seccionConfiguracion.php:449
+#: admin/seccionConfiguracion.php:460 admin/seccionConfiguracion.php:481
+#: admin/seccionConfiguracion.php:492 admin/seccionConfiguracion.php:503
+#: admin/seccionConfiguracion.php:516 admin/seccionConfiguracion.php:527
+msgid "Actualizar"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:268
+msgid "Mínimo de viewers"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:279
+msgid "Auto aceptar solicitudes"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:298
+msgid "Página de redirección al mandar la solicitud"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:311
+msgid "Con esta configuración se saca la información de los streamers"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:353
+msgid ""
+"Con esta información se puede vincular streamlabs para que salgan avisos "
+"cuando votan a un streamer"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:384
+msgid ""
+"La configuración de twitter se usa principalmente para que se haga RT "
+"automatico a los streamers y sus comprobaciones"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:437
+msgid ""
+"El Discord WebHook y su mensaje son necesarios para avisar a los streamers "
+"cuando se añada un streamer, se borre, exista una nueva solicitud.."
+msgstr ""
+
+#: admin/seccionConfiguracion.php:455
+msgid "Mensaje de discord para nuevas solicitudes"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:468
+msgid ""
+"El Discord Client ID, Discord Client Secret, Discord Guild Id, Discord Role "
+"ID son necesarios para que funcione la vinculación con  discord y asi "
+"asignar el rango automaticamente."
+msgstr ""
+
+#: admin/seccionConfiguracion.php:469
+msgid ""
+"Para usar esto solo una vez configurado tienes aquí el shortcode "
+"[seccionAsignarRangoDiscord]"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:535 admin/seccionConfiguracion.php:542
+msgid "Añadir Juego"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:539
+msgid "Juego:"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:540
+msgid "URL:"
+msgstr ""
+
+#: admin/seccionConfiguracion.php:541
+msgid "URL Imagen:"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:84
+msgid "Se han actulizado los datos de visitas y seguidores a este mes"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:89
+msgid "Control de streamers"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:95
+msgid "Comprobar Tweets"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:99
+msgid "Comprobar"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:105
+msgid "Comprobar Grupo"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:109
+msgid "Comprobar grupo"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:115
+msgid "Actualizar streamers"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:119
+msgid "Actualizar streamers Mes"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:127
+msgid "Total de streamers"
+msgstr "Total de streamers"
+
+#: admin/seccionControlStreamers.php:133
+msgid "Mínimo de seguidores ideal"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:139
+msgid "Mínimo de views ideal"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:148 shortcodes.php:398
+msgid "Streamer"
+msgstr "Streamer"
+
+#: admin/seccionControlStreamers.php:148
+msgid "Views Antes"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:148
+msgid "Seguidores Antes"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:148
+msgid "Views"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:148 templates/single-canales.php:270
+msgid "Seguidores"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:149
+msgid "En Team"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:150 shortcodes.php:581
+msgid "Strikes"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:150
+msgid "Participaciones"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:150
+msgid "Karma"
+msgstr ""
+
+#: admin/seccionControlStreamers.php:150
+msgid "Acciones"
+msgstr ""
+
+#: admin/sistemaCorreo.php:25
+msgid ""
+"Actualizado la encuesta para decidir fecha, hora y de que será el evento <a "
+"href=\"https://forms.gle/UQFTXiBydvSuPXVd7\">https://forms.gle/"
+"UQFTXiBydvSuPXVd7</a>"
+msgstr ""
+
+#: shortcodes.php:297
+msgid "BETA - Streamers por juego"
+msgstr ""
+
+#: shortcodes.php:319
+msgid "Nuevo registro en el apartado de streamers por juego"
+msgstr ""
+
+#: shortcodes.php:378
+msgid "Nick en el juego: "
+msgstr ""
+
+#: shortcodes.php:379 shortcodes.php:970
+msgid "Apuntarse"
+msgstr ""
+
+#: shortcodes.php:387
+msgid "Borrarse"
+msgstr ""
+
+#: shortcodes.php:401
+msgid "Nick"
+msgstr ""
+
+#: shortcodes.php:437
+msgid "Si quieres que se añada un juego contacta con el administrador"
+msgstr ""
+
+#: shortcodes.php:453
+msgid "Asignar rango en discord"
+msgstr ""
+
+#: shortcodes.php:523
+msgid "Vincular discord"
+msgstr ""
+
+#: shortcodes.php:575
+msgid "Tu Karma"
+msgstr ""
+
+#: shortcodes.php:582
+msgid "Colaboraciones"
+msgstr ""
+
+#: shortcodes.php:583
+msgid "Karma Actual"
+msgstr ""
+
+#: shortcodes.php:602
+msgid "Log Karma"
+msgstr ""
+
+#: shortcodes.php:619
+msgid "Strike - No llegar al minimo de requisitos mensuales"
+msgstr ""
+
+#: shortcodes.php:621
+msgid "Strike - No tener el logo o link en los paneles de twitch"
+msgstr ""
+
+#: shortcodes.php:623
+msgid "Strike - No participar en un evento obligatorio"
+msgstr ""
+
+#: shortcodes.php:625
+msgid "Strike - No respetar las normas de la comunidad"
+msgstr ""
+
+#: shortcodes.php:627
+msgid "Colaboración - Participar en un evento"
+msgstr ""
+
+#: shortcodes.php:629
+msgid "Colaboración - Participar en la comunidad"
+msgstr ""
+
+#: shortcodes.php:631
+msgid "Colaboración - Crear un evento"
+msgstr ""
+
+#: shortcodes.php:696
+msgid "Solicitudes de los streamers"
+msgstr "Solicitudes de los streamers"
+
+#: shortcodes.php:701
+msgid ""
+"Desde aquí puedes ver las solicitudes para entrar como streamer que todavía "
+"no has votado"
+msgstr ""
+
+#: shortcodes.php:706
+msgid "Solicitudes pendientes"
+msgstr "Solicitudes pendientes"
+
+#: shortcodes.php:729
+msgid "¿Por qué crees que encajas en nuestra comunidad?"
+msgstr ""
+
+#: shortcodes.php:748
+msgid "Su canal"
+msgstr "Su canal"
+
+#: shortcodes.php:755
+msgid "No hay solicitudes pendientes de votar"
+msgstr ""
+
+#: shortcodes.php:850
+#, php-format
+msgid "Nuevo evento /\"%s/\" puedes verlo y apuntarte en "
+msgstr ""
+
+#: shortcodes.php:860
+msgid "Eventos - Apúntate a los eventos o crea nuevos"
+msgstr ""
+
+#: shortcodes.php:865
+msgid ""
+"Nosotros no te podemos obligar a participar pero lo suyo es que te apuntes a "
+"los eventos que crean otros y si no te interesa crea el tuyo para que otros "
+"participen y exista una mayor colaboración"
+msgstr ""
+
+#: shortcodes.php:866
+msgid "Recuerda que los eventos los pueden ver todos los visitantes de la web"
+msgstr ""
+
+#: shortcodes.php:874 shortcodes.php:903
+msgid "Crear Evento"
+msgstr ""
+
+#: shortcodes.php:880
+msgid "Nombre del evento"
+msgstr ""
+
+#: shortcodes.php:885 twitch-ranking.php:128
+msgid "Fecha Inicio: "
+msgstr ""
+
+#: shortcodes.php:889 twitch-ranking.php:132
+msgid "Fecha Fin: "
+msgstr ""
+
+#: shortcodes.php:895
+msgid "Descripción"
+msgstr ""
+
+#: shortcodes.php:895
+msgid "Permite Markdown"
+msgstr ""
+
+#: shortcodes.php:896
+msgid "Crear"
+msgstr ""
+
+#: shortcodes.php:897
+msgid "Cancelar"
+msgstr ""
+
+#: shortcodes.php:902 templates/archive-eventos.php:13
+msgid "Próximos eventos"
+msgstr ""
+
+#: shortcodes.php:937
+msgid "Descripción:"
+msgstr ""
+
+#: shortcodes.php:940
+msgid "Fecha Inicio"
+msgstr ""
+
+#: shortcodes.php:946
+msgid "Fecha Fin"
+msgstr ""
+
+#: shortcodes.php:947
+msgid "Creador del evento: "
+msgstr ""
+
+#: shortcodes.php:951
+msgid "Listado de apuntados: "
+msgstr ""
+
+#: shortcodes.php:973
+msgid "Ya estas apuntad@"
+msgstr ""
+
+#: shortcodes.php:978
+msgid "Desapuntarse"
+msgstr ""
+
+#: shortcodes.php:988
+msgid "No hay eventos próximos"
+msgstr ""
+
+#: templates/archive-eventos.php:53 templates/single-eventos.php:56
+msgid "Creador del evento"
+msgstr ""
+
+#: templates/archive-eventos.php:54 templates/single-eventos.php:57
+msgid "Fecha de inicio"
+msgstr ""
+
+#: templates/archive-eventos.php:55 templates/single-eventos.php:58
+msgid "Fecha fin del evento"
+msgstr ""
+
+#: templates/archive-eventos.php:64
+msgid "Ver el evento"
+msgstr ""
+
+#: templates/archive-eventos.php:79
+msgid "No hay próximos eventos todavía"
+msgstr ""
+
+#: templates/multistreaming.php:85
+msgid "Añadir Streamer Twitch"
+msgstr ""
+
+#: templates/multistreaming.php:91 templates/multistreaming.php:115
+msgid "Separa los streamers que quieras añadir con \",\". Max: 3"
+msgstr ""
+
+#: templates/multistreaming.php:92 templates/multistreaming.php:116
+msgid "Ejemplo: "
+msgstr ""
+
+#: templates/multistreaming.php:97 templates/multistreaming.php:121
+msgid "Ver"
+msgstr ""
+
+#: templates/multistreaming.php:109
+msgid "Añadir Streamer Mixer"
+msgstr ""
+
+#: templates/rankingStreamers.php:71 templates/single-canales.php:73
+msgid "Streamer votado"
+msgstr "Streamer votado"
+
+#: templates/rankingStreamers.php:74 templates/single-canales.php:76
+msgid "Este streamer no puede ser votado"
+msgstr ""
+
+#: templates/rankingStreamers.php:77 templates/rankingStreamers.php:160
+#: templates/rankingStreamers.php:168 templates/single-canales.php:79
+#: templates/single-canales.php:183 templates/single-canales.php:191
+msgid "Solo se puede votar una vez al dia"
+msgstr ""
+
+#: templates/rankingStreamers.php:253
+msgid "Dona a la comunidad y ayuda a mejorarla"
+msgstr ""
+
+#: templates/rankingStreamers.php:301
+msgid "Votos totales:"
+msgstr ""
+
+#: templates/rankingStreamers.php:327
+msgid "Perfil"
+msgstr ""
+
+#: templates/single-canales.php:189
+msgid "No registrado"
+msgstr ""
+
+#: templates/single-canales.php:263
+msgid "Estadísticas"
+msgstr ""
+
+#: templates/single-canales.php:269
+msgid "Visitas"
+msgstr ""
+
+#: templates/single-canales.php:271
+msgid "Visitas el dia 1"
+msgstr ""
+
+#: templates/single-canales.php:272
+msgid "Seguidores el dia 1"
+msgstr ""
+
+#: templates/single-canales.php:282 templates/single-eventos.php:67
+msgid "Ir a su canal"
+msgstr ""
+
+#: templates/single-canales.php:293
+#, php-format
+msgid "Vota a %s"
+msgstr ""
+
+#: templates/single-canales.php:311
+msgid "Votar"
+msgstr ""
+
+#: templates/single-canales.php:367
+msgid "Generar imagen para banner"
+msgstr ""
+
+#: templates/single-canales.php:383
+msgid "Votaciones"
+msgstr ""
+
+#: templates/single-canales.php:389
+msgid "Usuario"
+msgstr ""
+
+#: templates/single-canales.php:399
+msgid "Nº Votos"
+msgstr ""
+
+#: templates/single-eventos.php:50 twitch-ranking.php:116
+msgid "Datos del evento"
+msgstr ""
+
+#: templates/single-eventos.php:101
+msgid "Streamers apuntados"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:30 templates/vincular-twitch.php:117
+msgid "Error"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:37 templates/solicitud-pendiente.php:96
+msgid "No hemos encontrado ninguna solicitud"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:61
+msgid "Estado de la solicitud"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:71
+msgid "Tu solicitud no cumple los requisitos"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:76
+msgid "Tu solicitud se está comprobando"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:81
+msgid "Tu solicitud ha sido rechazada"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:86
+msgid "La solicitud ha sido aceptada"
+msgstr ""
+
+#: templates/solicitud-pendiente.php:91
+msgid "La solicitud ha sido aceptada, por favor comprueba tu correo."
+msgstr ""
+
+#: templates/solicitud-pendiente.php:114
+msgid "Conéctate para poder ver tu solicitud"
+msgstr ""
+
+#: templates/solicitud-twitch.php:51
+msgid "SolicitudStreamers"
+msgstr "SolicitudStreamers"
+
+#: templates/solicitud-twitch.php:139
+msgid "Comprobar si tengo los requisitos"
+msgstr ""
+
+#: templates/solicitud-twitch.php:142
+msgid "Conéctate para poder mandar solicitud"
+msgstr ""
+
+#: templates/solicitud-twitch.php:181
+msgid "Solicitud en revisión"
+msgstr "Solicitud en revisión"
+
+#: templates/solicitud-twitch.php:187
+msgid ""
+"Tu solicitud esta siendo votada, espera a que te enviemos un correo con el "
+"resultado de la votación"
+msgstr ""
+
+#: templates/solicitud-twitch.php:202
+msgid "Comprobación automatica"
+msgstr ""
+
+#: templates/solicitud-twitch.php:208
+#, php-format
+msgid "El canal de %s ha sido comprobado"
+msgstr ""
+
+#: templates/template-apartadoPrivado.php:32
+msgid "Solo los streamers de la comunidad pueden ver esta sección"
+msgstr ""
+
+#: templates/template-apartadoPrivado.php:39
+msgid "Pulsa aquí para vincular tu perfil de Twitch"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:53
+msgid "El usuario -user- te ha votado"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:222
+msgid "Testear aviso"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:226
+msgid "Al pulsarlo se creará una alerta."
+msgstr ""
+
+#: templates/vincular-streamlabs.php:229
+msgid "Probar"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:238
+msgid "Borrar vinculación"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:242
+msgid "Si no quieres recibir más avisos pulsa este botón."
+msgstr ""
+
+#: templates/vincular-streamlabs.php:245
+msgid "Borrar"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:254
+msgid "Widget URL"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:258
+msgid ""
+"Es el mismo que el de stream alerts para los follows, host, etc. Si lo "
+"quieres lo puedes coger desde su panel."
+msgstr ""
+
+#: templates/vincular-streamlabs.php:259
+msgid "Panel de StreamLabs"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:267
+msgid "Personalizar Alertas"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:271
+msgid ""
+"Para los enlaces de imagenes y sonido recomiendo subirlos a la misma "
+"streamlabs y coger el enlace desde alli."
+msgstr ""
+
+#: templates/vincular-streamlabs.php:272
+msgid ""
+"Si dejas el campo de url de la imagen vacios se coge el que tienes "
+"configurado en streamlabs apartado merch"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:275
+msgid "Tipo de alerta: "
+msgstr ""
+
+#: templates/vincular-streamlabs.php:276
+msgid "Merch"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:278
+msgid ""
+"Mensaje a mostrar. Poned -user- donde quereis que se vea el nombre del "
+"usuario:"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:279
+msgid "URL de la imagen: "
+msgstr ""
+
+#: templates/vincular-streamlabs.php:280
+msgid "URL del sonido: "
+msgstr ""
+
+#: templates/vincular-streamlabs.php:281
+msgid "Duración de la alerta (Segundos) : "
+msgstr ""
+
+#: templates/vincular-streamlabs.php:282
+msgid "Actualizar Alertas"
+msgstr ""
+
+#: templates/vincular-streamlabs.php:296
+msgid "Puedes vincular Streamlabs facilmente pulsando a este botón"
+msgstr ""
+
+#: templates/vincular-twitch.php:73
+msgid "Puedes vincular twitch facilmente pulsando a este botón"
+msgstr ""
+
+#: templates/vincular-twitch.php:96
+msgid "Twitch ya esta vinculado"
+msgstr ""
+
+#: templates/vincular-twitch.php:103
+msgid "Tu ID en Twitch es"
+msgstr ""
+
+#: templates/vincular-twitch.php:124
+msgid "Necesitas conectarte para poder vincular tu perfil con twitch"
+msgstr ""
+
+#: twitch-ranking.php:41
+msgid "Canales"
+msgstr "Canales"
+
+#: twitch-ranking.php:42
+msgid "Canal"
+msgstr "Canal"
+
+#: twitch-ranking.php:53
+msgid "Datos del streamer"
+msgstr ""
+
+#: twitch-ranking.php:104
+msgid "Eventos"
+msgstr ""
+
+#: twitch-ranking.php:105
+msgid "Evento"
+msgstr ""
